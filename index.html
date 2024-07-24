@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery || Image Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="thumbnails">
+            <img src="./Images/virat.webp" onclick="showImage('./Images/virat.webp')">
+            <img src="./Images/rohit.jpg" onclick="showImage('./Images/rohit.jpg')">
+            <img src="./Images/ms_dhoni.jpg" onclick="showImage('./Images/ms_dhoni.jpg')">
+            <img src="./Images/Sachin.jpg" onclick="showImage('./Images/Sachin.jpg')">
+        </div>
+        <div class="thumbnails">
+            <img src="./Images/goutam.jpg" onclick="showImage('./Images/goutam.jpg')">
+            <img src="./Images/sehwag.jpg" onclick="showImage('./Images/sehwag.jpg')">
+            <img src="./Images/Suresh-Raina.jpg" onclick="showImage('./Images/Suresh-Raina.jpg')">
+            <img src="./Images/rishabh.webp" onclick="showImage('./Images/rishabh.webp')">
+        </div>
+        <div class="full-image">
+            <img id="mainImage" src="./Images/Sachin.jpg" alt="Main Image">
+        </div>
+        <div class="thumbnails">
+            <img src="./Images/bumrah.avif" onclick="showImage('./Images/bumrah.avif')">
+            <img src="./Images/harbhajan.avif" onclick="showImage('./Images/harbhajan.avif')">
+            <img src="./Images/zaheer_khan.webp" onclick="showImage('./Images/zaheer_khan.webp')">
+            <img src="./Images/shami.jpg" onclick="showImage('./Images/shami.jpg')">
+        </div>
+        <div class="thumbnails">
+            <img src="./Images/surya.jpg" onclick="showImage('./Images/surya.jpg')">
+            <img src="./Images/hardik.webp" onclick="showImage('./Images/hardik.webp')">
+            <img src="./Images/Youvraj.jpg" onclick="showImage('./Images/Youvraj.jpg')">
+            <img src="./Images/jaddu.webp" onclick="showImage('./Images/jaddu.webp')">
+        </div>
+    </div>
+
+    <div class="slideshow">
+        <div class="slides fade">
+            <img src="./Images/virat.webp">
+        </div>
+        <div class="slides fade">
+            <img src="./Images/rohit.jpg">
+        </div>
+        <div class="slides fade">
+            <img src="./Images/ms_dhoni.jpg">
+        </div>
+        <div class="slides fade">
+        <img src="./Images/goutam.jpg">
+        </div>
+        <div class="slides fade">
+            <img src="./Images/Sachin.jpg">
+        </div>
+        <div class="slides fade">
+        <img src="./Images/bumrah.avif">
+        </div>
+        <div class="slides fade">
+        <img src="./Images/shami.jpg">
+        </div>
+        <div class="slides fade">
+        <img src="./Images/surya.jpg">
+        </div>
+        <div class="slides fade">
+            <img src="./Images/hardik.webp">
+        </div>
+        <div class="slides fade">
+            <img src="./Images/jaddu.webp">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
